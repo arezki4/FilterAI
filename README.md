@@ -1,3 +1,6 @@
+# FilterAI
+LLM content filtering module
+
 # How to use
 1. Train the modele by uncommenting the training code and execute the script with:
 ```
@@ -7,8 +10,6 @@ python3 hate_detection.py
 ```
 streamlit run app.py
 ```
-# FilterAI
-LLM content filtering module
 
 ## To contribute
 1. Create a fork repo then you can clone your fork on your machine with:
