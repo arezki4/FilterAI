@@ -1,3 +1,12 @@
+# How to use
+1. Train the modele by uncommenting the training code and execute the script with:
+```
+python3 hate_detection.py
+```
+2. Comment the training code and execute the streamlit app with:
+```
+streamlit run app.py
+```
 # FilterAI
 LLM content filtering module
 
