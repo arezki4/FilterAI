@@ -16,7 +16,7 @@ test_example = st.text_input('Saisir un message à envoyer :point_down:', 'Text.
 envoyer = st.button('Envoyer le message')
 
 model = ToxicCommentClassifier(n_classes=6)
-model.load_state_dict(torch.load('modele2_pl.pt', map_location=torch.device('cpu')))
+model.load_state_dict(torch.load('modele_pl.pt', map_location=torch.device('cpu')))
 model.freeze()
 CLASSES = ['toxic', 'severe_toxic', 'obscene', 'threat', 'insult', 'identity_hate']
 
