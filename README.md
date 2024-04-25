@@ -2,16 +2,22 @@
 LLM content filtering module
 
 # How to use
-1. Train the modele by uncommenting the training code and execute the script with:
+
+1. To re-train the modele uncomment the training code and execute the script with:
 ```
-python3 hate_detection.py
+python3 Bert/pages/notebook_pytorch.py
 ```
-2. Comment the training code and execute the streamlit app with:
+2. To execute the streamlit app with Bert model with:
 ```
-streamlit run app.py
+streamlit run Bert/st_main.py
+```
+3. To execute the Llama prompted model:
+```
+python3 Llama/Llama_model.py
 ```
 
 ## To contribute
+
 1. Create a fork repo then you can clone your fork on your machine with:
 ```
 git clone git@github.com:'yourfork-repo'/FilterAI.git
